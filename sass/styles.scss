@@ -1,0 +1,69 @@
+// Custom variable
+$primary:#007cf8;
+$secondary:#939797;
+$dark:#1b2635;
+$line-height:1px;
+
+.social-icon{
+    .logo-h{
+        font-size: 27px;
+        transition: 0.4s all;
+        cursor: pointer;
+    }
+    .logo-h:hover {
+        font-size: 33px;
+        filter: drop-shadow(1px 0.5px 0.5px rgba(255, 253, 253, 0.984));
+        font-weight: bolder;
+        z-index:10;
+    }
+}
+a{
+    .material-icons-outlined{
+        font-size:40px;
+    }
+}       
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
+@import '../node_modules/material-icons/iconfont/material-icons.css';
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: $dark;
+}
+
+.material-icons-outlined{
+    vertical-align: middle;
+    line-height:$line-height;
+}
+.bi{
+    font-size: 25px;
+}
+.nav-link{
+    &:hover{
+        font-weight:500;
+    }
+}
+#demo {
+  &:hover {
+    color: white;
+  }
+}
+
+.product-icon {
+  $size: 49px;
+  width: $size;
+  height: $size;
+} 
+.fnt-25{
+    font-size: 25px;
+}
+.fnt-35{
+    font-size: 35px;
+}   
+@media (min-width:992px) and (max-width:1199px) {
+    .img-div .phto{
+        margin-left: 100px;
+    }
+}

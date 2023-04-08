@@ -4,6 +4,9 @@ $secondary:#939797;
 $dark:#1b2635;
 $line-height:1px;
 
+html{
+    scroll-behavior: smooth;
+}
 .social-icon{
     .logo-h{
         font-size: 30px;
